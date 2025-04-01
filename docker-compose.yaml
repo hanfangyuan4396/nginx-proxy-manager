@@ -2,6 +2,7 @@ version: '3.8'
 services:
   app:
     image: 'jc21/nginx-proxy-manager:latest'
+    # image: 'registry.cn-hangzhou.aliyuncs.com/hanfangyuan/nginx-proxy-manager:latest'
     restart: unless-stopped
     #network_mode: host
     ports:
